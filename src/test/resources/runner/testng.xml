@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+  <test thread-count="5" name="SystemTest">
+    <classes>
+      <class name="testcases.CustomerLoginTest"/>
+      <class name="testbase.TestBase"/>
+      <class name="testcases.BankManagerLoginTest"/>
+      <class name="testcases.AddCustomerTest"/>
+      <class name="testcases.OpenAccountTest"/>
+    </classes>
+  </test> <!-- SystemTest -->
+</suite> <!-- TestSuite -->
